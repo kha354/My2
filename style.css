@@ -1,7 +1,9 @@
+
 /* ===== MOBILE FIRST ===== */
 body {
     margin: 0;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
+    text-align: center;
 }
 
 .container {
@@ -14,14 +16,13 @@ body {
 .container div {
     border: 2px solid #ccc;
     padding: 10px;
-    text-align: center;
 }
 
 img {
     width: 100%;
 }
 
-/* ===== TABLET ===== */
+/* ===== TABLET ≥ 772px ===== */
 @media (min-width: 772px) {
     .container {
         grid-template-columns: 1fr 1fr;
@@ -36,7 +37,7 @@ img {
     }
 }
 
-/* ===== DESKTOP ===== */
+/* ===== DESKTOP ≥ 992px ===== */
 @media (min-width: 992px) {
     .container div:nth-child(3n) {
         grid-column: span 2;
