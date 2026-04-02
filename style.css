@@ -1,7 +1,7 @@
 /* ===== MOBILE FIRST ===== */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial;
 }
 
 .container {
@@ -21,7 +21,7 @@ img {
     width: 100%;
 }
 
-/* ===== TABLET (≥ 772px) ===== */
+/* ===== TABLET ===== */
 @media (min-width: 772px) {
     .container {
         grid-template-columns: 1fr 1fr;
@@ -36,7 +36,7 @@ img {
     }
 }
 
-/* ===== DESKTOP (≥ 992px) ===== */
+/* ===== DESKTOP ===== */
 @media (min-width: 992px) {
     .container div:nth-child(3n) {
         grid-column: span 2;
